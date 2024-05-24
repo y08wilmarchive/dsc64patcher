@@ -1,1 +1,2 @@
-clang Kernel64Patcher.c -o Kernel64Patcher -Wno-error=int-conversion
+rm -rf ../Semaphorin/Linux/dsc64patcher
+clang Kernel64Patcher.c -o ../Semaphorin/Linux/dsc64patcher -Wno-error=int-conversion
