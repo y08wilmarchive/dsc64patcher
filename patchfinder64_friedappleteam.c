@@ -7,6 +7,12 @@
 //  Some parts of code from Luca Todesco and Pangu
 //  Copyright © 2016 -2017 FriedApple Team. All rights reserved.
 //
+
+#if defined(__linux__) || defined(__gnu_linux__)
+    #define _GNU_SOURCE
+#endif
+
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
